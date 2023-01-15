@@ -1,0 +1,2185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uddf xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2.3" xmlns="http://www.streit.cc/uddf/3.2/">
+  <generator>
+    <name>Shearwater Cloud Desktop</name>
+    <type>logbook</type>
+    <manufacturer id="Shearwater_Research_Inc">
+      <name>Shearwater Research, Inc</name>
+      <address>
+        <street>Suite 100, 10200 Shellbridge Way</street>
+        <city>Richmond</city>
+        <postcode>V6X 2W7</postcode>
+        <country>Canada</country>
+        <province>British Columbia</province>
+      </address>
+      <contact>
+        <language>English</language>
+        <phone>604-669-9958</phone>
+        <fax>604-681-4982</fax>
+        <email>info@shearwater.com</email>
+        <homepage>https://shearwater.com</homepage>
+      </contact>
+    </manufacturer>
+    <version>2.9.6</version>
+    <datetime>2023-01-15T16:29:31Z</datetime>
+  </generator>
+  <diver>
+    <owner>
+      <equipment>
+        <divecomputer id="Teric_600FB929">
+          <name>Teric</name>
+          <manufacturer id="Shearwater_Research_Inc">
+            <name>Shearwater Research, Inc</name>
+            <address>
+              <street>Suite 100, 10200 Shellbridge Way</street>
+              <city>Richmond</city>
+              <postcode>V6X 2W7</postcode>
+              <country>Canada</country>
+              <province>British Columbia</province>
+            </address>
+            <contact>
+              <language>English</language>
+              <phone>604-669-9958</phone>
+              <fax>604-681-4982</fax>
+              <email>info@shearwater.com</email>
+              <homepage>https://shearwater.com</homepage>
+            </contact>
+          </manufacturer>
+          <model>Teric</model>
+          <serialnumber>600FB929</serialnumber>
+        </divecomputer>
+      </equipment>
+    </owner>
+  </diver>
+  <gasdefinitions>
+    <mix id="OC1:35/00">
+      <o2>0.35</o2>
+      <maximumpo2>1</maximumpo2>
+    </mix>
+    <mix id="OC2:32/00">
+      <o2>0.32</o2>
+      <maximumpo2>1</maximumpo2>
+    </mix>
+    <mix id="OC3:21/00">
+      <o2>0.21</o2>
+      <maximumpo2>1</maximumpo2>
+    </mix>
+  </gasdefinitions>
+  <decomodel />
+  <profiledata>
+    <repetitiongroup id="10304471663934716">
+      <dive id="10304471663934716">
+        <applicationdata />
+        <informationbeforedive>
+          <link ref="profile_10304471663934716" />
+          <divenumber>16</divenumber>
+          <datetime>2022-09-23T12:05:16Z</datetime>
+          <surfaceintervalbeforedive>
+            <passedtime>4500</passedtime>
+          </surfaceintervalbeforedive>
+          <equipmentused>
+            <link ref="Teric_600FB929" />
+          </equipmentused>
+          <surfacepressure>6963707.5</surfacepressure>
+        </informationbeforedive>
+        <tankdata>
+          <tankpressurebegin>22490706</tankpressurebegin>
+          <tankpressureend>3350853.25</tankpressureend>
+        </tankdata>
+        <samples>
+          <waypoint>
+            <cns>9</cns>
+            <depth>2.13414645</depth>
+            <divetime>10</divetime>
+            <tankpressure ref="T1">22490706</tankpressure>
+            <temperature>306.15</temperature>
+            <divemode type="opencircuit" />
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>3.140244</depth>
+            <divetime>20</divetime>
+            <tankpressure ref="T1">2.238039E+07</tankpressure>
+            <temperature>305.15</temperature>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>6.25</depth>
+            <divetime>30</divetime>
+            <tankpressure ref="T1">22352812</tankpressure>
+            <temperature>305.15</temperature>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>9.939025</depth>
+            <divetime>40</divetime>
+            <tankpressure ref="T1">22297654</tankpressure>
+            <temperature>304.15</temperature>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>13.7195129</depth>
+            <divetime>50</divetime>
+            <tankpressure ref="T1">22228706</tankpressure>
+            <temperature>304.15</temperature>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>17.10366</depth>
+            <divetime>60</divetime>
+            <tankpressure ref="T1">22214916</tankpressure>
+            <temperature>304.15</temperature>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>20.1219521</depth>
+            <divetime>70</divetime>
+            <tankpressure ref="T1">22132178</tankpressure>
+            <temperature>304.15</temperature>
+            <nodecotime>65</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>22.7134151</depth>
+            <divetime>80</divetime>
+            <tankpressure ref="T1">21952916</tankpressure>
+            <temperature>304.15</temperature>
+            <nodecotime>48</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>23.9634151</depth>
+            <divetime>90</divetime>
+            <tankpressure ref="T1">21759862</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>42</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>25.091465</depth>
+            <divetime>100</divetime>
+            <tankpressure ref="T1">21718494</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>9</cns>
+            <depth>24.3597565</depth>
+            <divetime>110</divetime>
+            <tankpressure ref="T1">21594388</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.9634151</depth>
+            <divetime>120</divetime>
+            <tankpressure ref="T1">21442702</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>40</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.5670738</depth>
+            <divetime>130</divetime>
+            <tankpressure ref="T1">21359966</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.1402454</depth>
+            <divetime>140</divetime>
+            <tankpressure ref="T1">21291018</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>43</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>22.4085369</depth>
+            <divetime>150</divetime>
+            <tankpressure ref="T1">21277228</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>46</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>22.8658543</depth>
+            <divetime>160</divetime>
+            <tankpressure ref="T1">21111754</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>44</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>24.0853672</depth>
+            <divetime>170</divetime>
+            <tankpressure ref="T1">2.096007E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>24.0243912</depth>
+            <divetime>180</divetime>
+            <tankpressure ref="T1">20904912</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>40</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.47561</depth>
+            <divetime>190</divetime>
+            <tankpressure ref="T1">20849754</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>40</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.5060978</depth>
+            <divetime>200</divetime>
+            <tankpressure ref="T1">20601542</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.2926846</depth>
+            <divetime>210</divetime>
+            <tankpressure ref="T1">20587752</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.4451237</depth>
+            <divetime>220</divetime>
+            <tankpressure ref="T1">20449858</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.4146347</depth>
+            <divetime>230</divetime>
+            <tankpressure ref="T1">20408488</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>10</cns>
+            <depth>23.3841476</depth>
+            <divetime>240</divetime>
+            <tankpressure ref="T1">2.038091E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>23.07927</depth>
+            <divetime>250</divetime>
+            <tankpressure ref="T1">20215436</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>23.07927</depth>
+            <divetime>260</divetime>
+            <tankpressure ref="T1">20146488</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>23.20122</depth>
+            <divetime>270</divetime>
+            <tankpressure ref="T1">20036172</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>41</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>22.1341457</depth>
+            <divetime>280</divetime>
+            <tankpressure ref="T1">19981014</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>44</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.79878</depth>
+            <divetime>290</divetime>
+            <tankpressure ref="T1">19939646</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>46</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.3414631</depth>
+            <divetime>300</divetime>
+            <tankpressure ref="T1">19774172</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>48</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.310976</depth>
+            <divetime>310</divetime>
+            <tankpressure ref="T1">19691434</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>49</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.2500019</depth>
+            <divetime>320</divetime>
+            <tankpressure ref="T1">19484592</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>48</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.1585369</depth>
+            <divetime>330</divetime>
+            <tankpressure ref="T1">19429434</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>49</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.4329281</depth>
+            <divetime>340</divetime>
+            <tankpressure ref="T1">19305328</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>47</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>20.8231716</depth>
+            <divetime>350</divetime>
+            <tankpressure ref="T1">19277748</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>50</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>20.9451237</depth>
+            <divetime>360</divetime>
+            <tankpressure ref="T1">1.922259E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>49</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>20.9451237</depth>
+            <divetime>370</divetime>
+            <tankpressure ref="T1">19167432</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>49</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.310976</depth>
+            <divetime>380</divetime>
+            <tankpressure ref="T1">19001958</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>47</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>11</cns>
+            <depth>21.4939022</depth>
+            <divetime>390</divetime>
+            <tankpressure ref="T1">1.89468E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>47</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>21.55488</depth>
+            <divetime>400</divetime>
+            <tankpressure ref="T1">18795116</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>46</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>21.5243912</depth>
+            <divetime>410</divetime>
+            <tankpressure ref="T1">1.864343E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>46</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>21.5243912</depth>
+            <divetime>420</divetime>
+            <tankpressure ref="T1">18615852</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>45</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>21.8902454</depth>
+            <divetime>430</divetime>
+            <tankpressure ref="T1">18436588</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>43</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>21.79878</depth>
+            <divetime>440</divetime>
+            <tankpressure ref="T1">1.835385E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>44</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>21.7682934</depth>
+            <divetime>450</divetime>
+            <tankpressure ref="T1">18284902</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>44</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>22.80488</depth>
+            <divetime>460</divetime>
+            <tankpressure ref="T1">18243534</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>23.20122</depth>
+            <divetime>470</divetime>
+            <tankpressure ref="T1">1.806427E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>22.8963413</depth>
+            <divetime>480</divetime>
+            <tankpressure ref="T1">18022902</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>22.9878063</depth>
+            <divetime>490</divetime>
+            <tankpressure ref="T1">17940164</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>23.04878</depth>
+            <divetime>500</divetime>
+            <tankpressure ref="T1">17871218</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>22.9878063</depth>
+            <divetime>510</divetime>
+            <tankpressure ref="T1">17650584</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>12</cns>
+            <depth>23.20122</depth>
+            <divetime>520</divetime>
+            <tankpressure ref="T1">17609216</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>23.2621975</depth>
+            <divetime>530</divetime>
+            <tankpressure ref="T1">17567848</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>36</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.621954</depth>
+            <divetime>540</divetime>
+            <tankpressure ref="T1">1.74989E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.9878063</depth>
+            <divetime>550</divetime>
+            <tankpressure ref="T1">17361006</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.92683</depth>
+            <divetime>560</divetime>
+            <tankpressure ref="T1">17333426</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.8353672</depth>
+            <divetime>570</divetime>
+            <tankpressure ref="T1">17264478</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.5914631</depth>
+            <divetime>580</divetime>
+            <tankpressure ref="T1">1.722311E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.7743931</depth>
+            <divetime>590</divetime>
+            <tankpressure ref="T1">17112794</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>23.3231716</depth>
+            <divetime>600</divetime>
+            <tankpressure ref="T1">17043846</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>35</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>23.20122</depth>
+            <divetime>610</divetime>
+            <tankpressure ref="T1">17002478</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>35</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.95732</depth>
+            <divetime>620</divetime>
+            <tankpressure ref="T1">1.691974E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>36</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.5914631</depth>
+            <divetime>630</divetime>
+            <tankpressure ref="T1">16850792</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.5000019</depth>
+            <divetime>640</divetime>
+            <tankpressure ref="T1">16795634</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.2865849</depth>
+            <divetime>650</divetime>
+            <tankpressure ref="T1">16712898</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>13</cns>
+            <depth>22.0426846</depth>
+            <divetime>660</divetime>
+            <tankpressure ref="T1">1.665774E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>38</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>21.7682934</depth>
+            <divetime>670</divetime>
+            <tankpressure ref="T1">16602582</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>40</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>21.95122</depth>
+            <divetime>680</divetime>
+            <tankpressure ref="T1">16533634</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>21.7682934</depth>
+            <divetime>690</divetime>
+            <tankpressure ref="T1">16478476</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>21.9207325</depth>
+            <divetime>700</divetime>
+            <tankpressure ref="T1">16423318</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>22.1951237</depth>
+            <divetime>710</divetime>
+            <tankpressure ref="T1">16257844</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>22.2560978</depth>
+            <divetime>720</divetime>
+            <tankpressure ref="T1">16161317</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>37</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>22.652441</depth>
+            <divetime>730</divetime>
+            <tankpressure ref="T1">1.607858E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>35</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>22.92683</depth>
+            <divetime>740</divetime>
+            <tankpressure ref="T1">15995843</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>34</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>23.3231716</depth>
+            <divetime>750</divetime>
+            <tankpressure ref="T1">15940685</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>33</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>23.62805</depth>
+            <divetime>760</divetime>
+            <tankpressure ref="T1">15857947</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>23.5060978</depth>
+            <divetime>770</divetime>
+            <tankpressure ref="T1">15802789</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>23.2317085</depth>
+            <divetime>780</divetime>
+            <tankpressure ref="T1">15733842</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>23.20122</depth>
+            <divetime>790</divetime>
+            <tankpressure ref="T1">15595947</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>14</cns>
+            <depth>22.621954</depth>
+            <divetime>800</divetime>
+            <tankpressure ref="T1">15568368</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>34</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>22.8353672</depth>
+            <divetime>810</divetime>
+            <tankpressure ref="T1">15416683</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>33</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.04878</depth>
+            <divetime>820</divetime>
+            <tankpressure ref="T1">15292577</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.1707325</depth>
+            <divetime>830</divetime>
+            <tankpressure ref="T1">1.520984E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.3231716</depth>
+            <divetime>840</divetime>
+            <tankpressure ref="T1">15140892</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.47561</depth>
+            <divetime>850</divetime>
+            <tankpressure ref="T1">15058155</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.5060978</depth>
+            <divetime>860</divetime>
+            <tankpressure ref="T1">14989208</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.3536587</depth>
+            <divetime>870</divetime>
+            <tankpressure ref="T1">14837523</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.47561</depth>
+            <divetime>880</divetime>
+            <tankpressure ref="T1">14754786</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.62805</depth>
+            <divetime>890</divetime>
+            <tankpressure ref="T1">1.463068E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.5365868</depth>
+            <divetime>900</divetime>
+            <tankpressure ref="T1">14575522</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.6585369</depth>
+            <divetime>910</divetime>
+            <tankpressure ref="T1">14520364</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>23.04878</depth>
+            <divetime>920</divetime>
+            <tankpressure ref="T1">14492785</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>15</cns>
+            <depth>22.439024</depth>
+            <divetime>930</divetime>
+            <tankpressure ref="T1">14437627</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.2560978</depth>
+            <divetime>940</divetime>
+            <tankpressure ref="T1">1.43411E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.530489</depth>
+            <divetime>950</divetime>
+            <tankpressure ref="T1">14272153</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.5000019</depth>
+            <divetime>960</divetime>
+            <tankpressure ref="T1">14216995</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.5000019</depth>
+            <divetime>970</divetime>
+            <tankpressure ref="T1">14134258</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.652441</depth>
+            <divetime>980</divetime>
+            <tankpressure ref="T1">1.406531E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.530489</depth>
+            <divetime>990</divetime>
+            <tankpressure ref="T1">13886046</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.1951237</depth>
+            <divetime>1000</divetime>
+            <tankpressure ref="T1">13844678</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.1951237</depth>
+            <divetime>1010</divetime>
+            <tankpressure ref="T1">13817099</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>21.9207325</depth>
+            <divetime>1020</divetime>
+            <tankpressure ref="T1">1.376194E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.5914631</depth>
+            <divetime>1030</divetime>
+            <tankpressure ref="T1">13734361</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.80488</depth>
+            <divetime>1040</divetime>
+            <tankpressure ref="T1">13610256</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.560976</depth>
+            <divetime>1050</divetime>
+            <tankpressure ref="T1">13568887</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>22.1341457</depth>
+            <divetime>1060</divetime>
+            <tankpressure ref="T1">13513729</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>16</cns>
+            <depth>21.95122</depth>
+            <divetime>1070</divetime>
+            <tankpressure ref="T1">13444782</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>33</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.3475628</depth>
+            <divetime>1080</divetime>
+            <tankpressure ref="T1">13306886</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>21.95122</depth>
+            <divetime>1090</divetime>
+            <tankpressure ref="T1">13265518</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>32</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.3170757</depth>
+            <divetime>1100</divetime>
+            <tankpressure ref="T1">13182781</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.0426846</depth>
+            <divetime>1110</divetime>
+            <tankpressure ref="T1">13141412</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.652441</depth>
+            <divetime>1120</divetime>
+            <tankpressure ref="T1">13072465</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.7439022</depth>
+            <divetime>1130</divetime>
+            <tankpressure ref="T1">1.290699E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.3170757</depth>
+            <divetime>1140</divetime>
+            <tankpressure ref="T1">12851832</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>21.95122</depth>
+            <divetime>1150</divetime>
+            <tankpressure ref="T1">12769095</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.0731716</depth>
+            <divetime>1160</divetime>
+            <tankpressure ref="T1">12672568</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.1341457</depth>
+            <divetime>1170</divetime>
+            <tankpressure ref="T1">1.261741E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>31</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.1341457</depth>
+            <divetime>1180</divetime>
+            <tankpressure ref="T1">12548463</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.621954</depth>
+            <divetime>1190</divetime>
+            <tankpressure ref="T1">12520884</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>22.22561</depth>
+            <divetime>1200</divetime>
+            <tankpressure ref="T1">12451936</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>17</cns>
+            <depth>21.5243912</depth>
+            <divetime>1210</divetime>
+            <tankpressure ref="T1">12396778</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>30</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>21.4329281</depth>
+            <divetime>1220</divetime>
+            <tankpressure ref="T1">1.234162E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>34</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.0426846</depth>
+            <divetime>1230</divetime>
+            <tankpressure ref="T1">12217514</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.2560978</depth>
+            <divetime>1240</divetime>
+            <tankpressure ref="T1">12176146</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>27</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.3170757</depth>
+            <divetime>1250</divetime>
+            <tankpressure ref="T1">12120988</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>27</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>21.95122</depth>
+            <divetime>1260</divetime>
+            <tankpressure ref="T1">12024461</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>28</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.22561</depth>
+            <divetime>1270</divetime>
+            <tankpressure ref="T1">11983092</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>27</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.0121975</depth>
+            <divetime>1280</divetime>
+            <tankpressure ref="T1">11927934</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>28</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>21.9817066</depth>
+            <divetime>1290</divetime>
+            <tankpressure ref="T1">11858987</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>28</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.0426846</depth>
+            <divetime>1300</divetime>
+            <tankpressure ref="T1">11790039</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>27</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.2865849</depth>
+            <divetime>1310</divetime>
+            <tankpressure ref="T1">11734881</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>27</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.4085369</depth>
+            <divetime>1320</divetime>
+            <tankpressure ref="T1">11652144</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>26</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.5914631</depth>
+            <divetime>1330</divetime>
+            <tankpressure ref="T1">11583196</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>26</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>22.8963413</depth>
+            <divetime>1340</divetime>
+            <tankpressure ref="T1">11431512</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>24</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>18</cns>
+            <depth>23.1707325</depth>
+            <divetime>1350</divetime>
+            <tankpressure ref="T1">11362564</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>24</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.3231716</depth>
+            <divetime>1360</divetime>
+            <tankpressure ref="T1">11293616</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>24</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.3536587</depth>
+            <divetime>1370</divetime>
+            <tankpressure ref="T1">11252248</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>23</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.20122</depth>
+            <divetime>1380</divetime>
+            <tankpressure ref="T1">11169511</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>24</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>22.2560978</depth>
+            <divetime>1390</divetime>
+            <tankpressure ref="T1">11031616</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>25</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>22.1951237</depth>
+            <divetime>1400</divetime>
+            <tankpressure ref="T1">10962668</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>25</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>22.530489</depth>
+            <divetime>1410</divetime>
+            <tankpressure ref="T1">10838562</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>25</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>22.6829281</depth>
+            <divetime>1420</divetime>
+            <tankpressure ref="T1">10797194</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>24</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.1707325</depth>
+            <divetime>1430</divetime>
+            <tankpressure ref="T1">10742036</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.3231716</depth>
+            <divetime>1440</divetime>
+            <tankpressure ref="T1">10604141</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.3231716</depth>
+            <divetime>1450</divetime>
+            <tankpressure ref="T1">10493824</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.1097584</depth>
+            <divetime>1460</divetime>
+            <tankpressure ref="T1">10438666</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>22.7439022</depth>
+            <divetime>1470</divetime>
+            <tankpressure ref="T1">10383508</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>23</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>19</cns>
+            <depth>23.04878</depth>
+            <divetime>1480</divetime>
+            <tankpressure ref="T1">1.032835E+07</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>23.47561</depth>
+            <divetime>1490</divetime>
+            <tankpressure ref="T1">10176665</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>23.20122</depth>
+            <divetime>1500</divetime>
+            <tankpressure ref="T1">10149086</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>23.1097584</depth>
+            <divetime>1510</divetime>
+            <tankpressure ref="T1">10093928</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.8963413</depth>
+            <divetime>1520</divetime>
+            <tankpressure ref="T1">10024981</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.621954</depth>
+            <divetime>1530</divetime>
+            <tankpressure ref="T1">9914665</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.1951237</depth>
+            <divetime>1540</divetime>
+            <tankpressure ref="T1">9804348</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>23</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.7439022</depth>
+            <divetime>1550</divetime>
+            <tankpressure ref="T1">9749190</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.80488</depth>
+            <divetime>1560</divetime>
+            <tankpressure ref="T1">9694032</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.6829281</depth>
+            <divetime>1570</divetime>
+            <tankpressure ref="T1">9556137</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>23.0182934</depth>
+            <divetime>1580</divetime>
+            <tankpressure ref="T1">9487189</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>20</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>23.0182934</depth>
+            <divetime>1590</divetime>
+            <tankpressure ref="T1">9459610</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>20</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.7439022</depth>
+            <divetime>1600</divetime>
+            <tankpressure ref="T1">9404452</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.7743931</depth>
+            <divetime>1610</divetime>
+            <tankpressure ref="T1">9225189</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>21</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>20</cns>
+            <depth>22.6829281</depth>
+            <divetime>1620</divetime>
+            <tankpressure ref="T1">9211399</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>20</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>22.7743931</depth>
+            <divetime>1630</divetime>
+            <tankpressure ref="T1">9114872</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>20</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>22.8353672</depth>
+            <divetime>1640</divetime>
+            <tankpressure ref="T1">9073504</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>19</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.2317085</depth>
+            <divetime>1650</divetime>
+            <tankpressure ref="T1">9018346</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.1402454</depth>
+            <divetime>1660</divetime>
+            <tankpressure ref="T1">8963188</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.20122</depth>
+            <divetime>1670</divetime>
+            <tankpressure ref="T1">8797713</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.1097584</depth>
+            <divetime>1680</divetime>
+            <tankpressure ref="T1">8714976</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>22.95732</depth>
+            <divetime>1690</divetime>
+            <tankpressure ref="T1">8659818</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>19</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.6585369</depth>
+            <divetime>1700</divetime>
+            <tankpressure ref="T1">8590871</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.3231716</depth>
+            <divetime>1710</divetime>
+            <tankpressure ref="T1">8494344</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.3841476</depth>
+            <divetime>1720</divetime>
+            <tankpressure ref="T1">8411607</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.5975628</depth>
+            <divetime>1730</divetime>
+            <tankpressure ref="T1">8356449</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.07927</depth>
+            <divetime>1740</divetime>
+            <tankpressure ref="T1">8246132.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>21</cns>
+            <depth>23.07927</depth>
+            <divetime>1750</divetime>
+            <tankpressure ref="T1">8204764</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.4695148</depth>
+            <divetime>1760</divetime>
+            <tankpressure ref="T1">8163395.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.37805</depth>
+            <divetime>1770</divetime>
+            <tankpressure ref="T1">8108237.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.4695148</depth>
+            <divetime>1780</divetime>
+            <tankpressure ref="T1">7928973.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>18</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.7439022</depth>
+            <divetime>1790</divetime>
+            <tankpressure ref="T1">7791078.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.7134151</depth>
+            <divetime>1800</divetime>
+            <tankpressure ref="T1">7708341.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.37805</depth>
+            <divetime>1810</divetime>
+            <tankpressure ref="T1">7666973</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.439024</depth>
+            <divetime>1820</divetime>
+            <tankpressure ref="T1">7680762.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.8658543</depth>
+            <divetime>1830</divetime>
+            <tankpressure ref="T1">7611815</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>22.621954</depth>
+            <divetime>1840</divetime>
+            <tankpressure ref="T1">7515288</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>17</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>23.2317085</depth>
+            <divetime>1850</divetime>
+            <tankpressure ref="T1">7432551</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>23.4451237</depth>
+            <divetime>1860</divetime>
+            <tankpressure ref="T1">7363603.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>23.6585369</depth>
+            <divetime>1870</divetime>
+            <tankpressure ref="T1">7211918.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>23.5365868</depth>
+            <divetime>1880</divetime>
+            <tankpressure ref="T1">7156760.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>22</cns>
+            <depth>23.04878</depth>
+            <divetime>1890</divetime>
+            <tankpressure ref="T1">7074023.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.95732</depth>
+            <divetime>1900</divetime>
+            <tankpressure ref="T1">6922339</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>23.5670738</depth>
+            <divetime>1910</divetime>
+            <tankpressure ref="T1">6894760</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>23.4146347</depth>
+            <divetime>1920</divetime>
+            <tankpressure ref="T1">6729285.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>23.6585369</depth>
+            <divetime>1930</divetime>
+            <tankpressure ref="T1">6646548.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>13</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>23.1097584</depth>
+            <divetime>1940</divetime>
+            <tankpressure ref="T1">6632759</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.439024</depth>
+            <divetime>1950</divetime>
+            <tankpressure ref="T1">6563811.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.7134151</depth>
+            <divetime>1960</divetime>
+            <tankpressure ref="T1">6494863.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.5914631</depth>
+            <divetime>1970</divetime>
+            <tankpressure ref="T1">6439705.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.3475628</depth>
+            <divetime>1980</divetime>
+            <tankpressure ref="T1">6370758</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.2560978</depth>
+            <divetime>1990</divetime>
+            <tankpressure ref="T1">6329389.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.3170757</depth>
+            <divetime>2000</divetime>
+            <tankpressure ref="T1">6150125.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>22.0426846</depth>
+            <divetime>2010</divetime>
+            <tankpressure ref="T1">6094967.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>23</cns>
+            <depth>21.8597584</depth>
+            <divetime>2020</divetime>
+            <tankpressure ref="T1">6053599</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>15</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>22.0121975</depth>
+            <divetime>2030</divetime>
+            <tankpressure ref="T1">5984651.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>22.0121975</depth>
+            <divetime>2040</divetime>
+            <tankpressure ref="T1">5832967</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>22.8353672</depth>
+            <divetime>2050</divetime>
+            <tankpressure ref="T1">5874335.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>13</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>22.652441</depth>
+            <divetime>2060</divetime>
+            <tankpressure ref="T1">5722650.5</tankpressure>
+            <temperature>303.15</temperature>
+            <nodecotime>13</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>22.1646366</depth>
+            <divetime>2070</divetime>
+            <tankpressure ref="T1">5653703</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>13</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>21.6463413</depth>
+            <divetime>2080</divetime>
+            <tankpressure ref="T1">5598545</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>21.3719521</depth>
+            <divetime>2090</divetime>
+            <tankpressure ref="T1">5543387</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>21.6158543</depth>
+            <divetime>2100</divetime>
+            <tankpressure ref="T1">5405491.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>21.2500019</depth>
+            <divetime>2110</divetime>
+            <tankpressure ref="T1">5322754.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>21.280489</depth>
+            <divetime>2120</divetime>
+            <tankpressure ref="T1">5240017.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>14</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>20.6707325</depth>
+            <divetime>2130</divetime>
+            <tankpressure ref="T1">5226228</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>16</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>19.5731735</depth>
+            <divetime>2140</divetime>
+            <tankpressure ref="T1">5171070</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>19</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>19.2378063</depth>
+            <divetime>2150</divetime>
+            <tankpressure ref="T1">5102122</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>20</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>18.59756</depth>
+            <divetime>2160</divetime>
+            <tankpressure ref="T1">4950437.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>22</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>18.1402435</depth>
+            <divetime>2170</divetime>
+            <tankpressure ref="T1">4922858.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>26</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>24</cns>
+            <depth>17.7134151</depth>
+            <divetime>2180</divetime>
+            <tankpressure ref="T1">4867700.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>29</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>16.7987823</depth>
+            <divetime>2190</divetime>
+            <tankpressure ref="T1">4826332</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>39</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>15.3658543</depth>
+            <divetime>2200</divetime>
+            <tankpressure ref="T1">4784963.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>62</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>13.6890249</depth>
+            <divetime>2210</divetime>
+            <tankpressure ref="T1">4660857.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>12.530489</depth>
+            <divetime>2220</divetime>
+            <tankpressure ref="T1">4619489</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>10.1524391</depth>
+            <divetime>2230</divetime>
+            <tankpressure ref="T1">4591910</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>10.5792685</depth>
+            <divetime>2240</divetime>
+            <tankpressure ref="T1">4481594</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>11.8292685</depth>
+            <divetime>2250</divetime>
+            <tankpressure ref="T1">4412646</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>12.0121956</depth>
+            <divetime>2260</divetime>
+            <tankpressure ref="T1">4371277.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>12.2865858</depth>
+            <divetime>2270</divetime>
+            <tankpressure ref="T1">4343698.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>11.250001</depth>
+            <divetime>2280</divetime>
+            <tankpressure ref="T1">4205803.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>8.871951</depth>
+            <divetime>2290</divetime>
+            <tankpressure ref="T1">4233382.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.371951</depth>
+            <divetime>2300</divetime>
+            <tankpressure ref="T1">4164435</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>15</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.792683</depth>
+            <divetime>2310</divetime>
+            <tankpressure ref="T1">4109276.75</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>18</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.25</depth>
+            <divetime>2320</divetime>
+            <tankpressure ref="T1">4095487.25</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>14</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.85365868</depth>
+            <divetime>2330</divetime>
+            <tankpressure ref="T1">4026539.75</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>16</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.128049</depth>
+            <divetime>2340</divetime>
+            <tankpressure ref="T1">3943802.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>14</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.768293</depth>
+            <divetime>2350</divetime>
+            <tankpressure ref="T1">3930013</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>9</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.280488</depth>
+            <divetime>2360</divetime>
+            <tankpressure ref="T1">3847276</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>11</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.371951</depth>
+            <divetime>2370</divetime>
+            <tankpressure ref="T1">3833486.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>11</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>7.042683</depth>
+            <divetime>2380</divetime>
+            <tankpressure ref="T1">3805907.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>6</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.70122</depth>
+            <divetime>2390</divetime>
+            <tankpressure ref="T1">3723170.25</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>14</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.97561</depth>
+            <divetime>2400</divetime>
+            <tankpressure ref="T1">3709380.75</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>12</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.61585426</depth>
+            <divetime>2410</divetime>
+            <tankpressure ref="T1">3612854</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>7</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.85975647</depth>
+            <divetime>2420</divetime>
+            <tankpressure ref="T1">3626643.75</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>5</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>6.21951246</depth>
+            <divetime>2430</divetime>
+            <tankpressure ref="T1">3585275</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>9</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.70122</depth>
+            <divetime>2440</divetime>
+            <tankpressure ref="T1">3571485.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>12</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.42683</depth>
+            <divetime>2450</divetime>
+            <tankpressure ref="T1">3488748.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>13</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>4.20731735</depth>
+            <divetime>2460</divetime>
+            <tankpressure ref="T1">3488748.5</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>22</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>4.81707335</depth>
+            <divetime>2470</divetime>
+            <tankpressure ref="T1">3392221.75</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>17</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.609756</depth>
+            <divetime>2480</divetime>
+            <tankpressure ref="T1">3350853.25</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>13</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>5.21341467</depth>
+            <divetime>2490</divetime>
+            <tankpressure ref="T1">3323274.25</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>12</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>3.20121956</depth>
+            <divetime>2500</divetime>
+            <tankpressure ref="T1">3350853.25</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>17</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>0</depth>
+            <divetime>2510</divetime>
+            <tankpressure ref="T1">3295695.25</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>45</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <cns>25</cns>
+            <depth>0.7012195</depth>
+            <divetime>2520</divetime>
+            <tankpressure ref="T1">3281905.75</tankpressure>
+            <temperature>303.15</temperature>
+            <gradientfactor>58</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <greatestdepth>25.091465</greatestdepth>
+          <notes />
+          <anysymptoms>
+            <notes />
+          </anysymptoms>
+          <diveduration>2507</diveduration>
+          <averagedepth>20.2791214</averagedepth>
+        </informationafterdive>
+      </dive>
+    </repetitiongroup>
+  </profiledata>
+  <tablegeneration>
+    <calculateprofile>
+      <profile id="profile_10304471663934716">
+        <density>1030</density>
+        <decomodel>zhl16c</decomodel>
+      </profile>
+    </calculateprofile>
+  </tablegeneration>
+</uddf>

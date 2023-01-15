@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uddf xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2.3" xmlns="http://www.streit.cc/uddf/3.2/">
+  <generator>
+    <name>Shearwater Cloud Desktop</name>
+    <type>logbook</type>
+    <manufacturer id="Shearwater_Research_Inc">
+      <name>Shearwater Research, Inc</name>
+      <address>
+        <street>Suite 100, 10200 Shellbridge Way</street>
+        <city>Richmond</city>
+        <postcode>V6X 2W7</postcode>
+        <country>Canada</country>
+        <province>British Columbia</province>
+      </address>
+      <contact>
+        <language>English</language>
+        <phone>604-669-9958</phone>
+        <fax>604-681-4982</fax>
+        <email>info@shearwater.com</email>
+        <homepage>https://shearwater.com</homepage>
+      </contact>
+    </manufacturer>
+    <version>2.9.6</version>
+    <datetime>2023-01-15T16:29:31Z</datetime>
+  </generator>
+  <diver>
+    <owner>
+      <equipment>
+        <divecomputer id="Teric_600FB929">
+          <name>Teric</name>
+          <manufacturer id="Shearwater_Research_Inc">
+            <name>Shearwater Research, Inc</name>
+            <address>
+              <street>Suite 100, 10200 Shellbridge Way</street>
+              <city>Richmond</city>
+              <postcode>V6X 2W7</postcode>
+              <country>Canada</country>
+              <province>British Columbia</province>
+            </address>
+            <contact>
+              <language>English</language>
+              <phone>604-669-9958</phone>
+              <fax>604-681-4982</fax>
+              <email>info@shearwater.com</email>
+              <homepage>https://shearwater.com</homepage>
+            </contact>
+          </manufacturer>
+          <model>Teric</model>
+          <serialnumber>600FB929</serialnumber>
+        </divecomputer>
+      </equipment>
+    </owner>
+  </diver>
+  <gasdefinitions>
+    <mix id="OC1:32/00">
+      <o2>0.32</o2>
+      <maximumpo2>1</maximumpo2>
+    </mix>
+    <mix id="OC2:21/00">
+      <o2>0.21</o2>
+      <maximumpo2>1</maximumpo2>
+    </mix>
+  </gasdefinitions>
+  <decomodel />
+  <profiledata>
+    <repetitiongroup id="10304471631438465">
+      <dive id="10304471631438465">
+        <applicationdata />
+        <informationbeforedive>
+          <link ref="profile_10304471631438465" />
+          <divenumber>11</divenumber>
+          <datetime>2021-09-12T09:21:05Z</datetime>
+          <surfaceintervalbeforedive>
+            <passedtime>120</passedtime>
+          </surfaceintervalbeforedive>
+          <equipmentused>
+            <link ref="Teric_600FB929" />
+          </equipmentused>
+          <surfacepressure>7005076</surfacepressure>
+        </informationbeforedive>
+        <tankdata>
+          <tankpressurebegin>3226747.5</tankpressurebegin>
+          <tankpressureend>2909588.5</tankpressureend>
+        </tankdata>
+        <samples>
+          <waypoint>
+            <depth>2.46951246</depth>
+            <divetime>10</divetime>
+            <tankpressure ref="T1">3199168.5</tankpressure>
+            <temperature>287.15</temperature>
+            <divemode type="opencircuit" />
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>2.25609756</depth>
+            <divetime>20</divetime>
+            <tankpressure ref="T1">3171589.5</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>2.16463423</depth>
+            <divetime>30</divetime>
+            <tankpressure ref="T1">3157800</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>1.85975611</depth>
+            <divetime>40</divetime>
+            <tankpressure ref="T1">3102642</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>2.22560978</depth>
+            <divetime>50</divetime>
+            <tankpressure ref="T1">3047483.75</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>1.52439022</depth>
+            <divetime>60</divetime>
+            <tankpressure ref="T1">3019904.75</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>1.890244</depth>
+            <divetime>70</divetime>
+            <tankpressure ref="T1">2992325.75</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>1.64634156</depth>
+            <divetime>80</divetime>
+            <tankpressure ref="T1">2937167.75</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>0.945122</depth>
+            <divetime>90</divetime>
+            <tankpressure ref="T1">2909588.5</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>0.365853667</depth>
+            <divetime>100</divetime>
+            <tankpressure ref="T1">2813062</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+          <waypoint>
+            <depth>0.426829278</depth>
+            <divetime>110</divetime>
+            <tankpressure ref="T1">2647587.75</tankpressure>
+            <temperature>287.15</temperature>
+            <gradientfactor>1</gradientfactor>
+            <nodecotime>99</nodecotime>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <greatestdepth>2.46951246</greatestdepth>
+          <notes />
+          <anysymptoms>
+            <notes />
+          </anysymptoms>
+          <diveduration>91</diveduration>
+          <averagedepth>1.59044719</averagedepth>
+        </informationafterdive>
+      </dive>
+    </repetitiongroup>
+  </profiledata>
+  <tablegeneration>
+    <calculateprofile>
+      <profile id="profile_10304471631438465">
+        <density>1030</density>
+        <decomodel>zhl16c</decomodel>
+      </profile>
+    </calculateprofile>
+  </tablegeneration>
+</uddf>
