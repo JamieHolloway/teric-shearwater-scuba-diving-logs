@@ -1,0 +1,15 @@
+Dive Number,GF Minimum,GF Maximum,Surface Interval (min),Imperial Units,Start Battery Voltage,Start CNS %,Start Date,Start External O2 Sensor Status,Start Low Set Point,Start High Set Point,Computer Firmware Version,Max Depth,Max Time,Error History,End Battery Voltage,End CNS,End Date,End External O2 Sensor Status,End Low Set Point,End High Set Point,Computer Serial Number,Computer Firmware Version,Computer Model,Log Version,Deco Model,VPM-B Conservatism,Start Surface Pressure,End Surface Pressure,Product
+11,40,85,2,True,4.3,0,9/12/2021 9:21:05 AM,False,0,1,19,8.1,91,,4.3,0,9/12/2021 9:22:36 AM,False,0,0,600FB929,19,0,13,GF,40/85,1016,1016,Teric
+Time (ms),Depth,First Stop Depth,Time To Surface (min),Average PPO2,Fraction O2,Fraction He,First Stop Time,Current NDL,Current Circuit Mode,Current CCR Mode,Water Temp,Gas Switch Needed,External PPO2,Set Point Type,Circuit Switch Type,External O2 Sensor 1 (mV),External O2 Sensor 2 (mV),External O2 Sensor 3 (mV),Battery Voltage,Tank 1 pressure (PSI),Tank 2 pressure (PSI),Tank 3 pressure (PSI),Tank 4 pressure (PSI),Gas Time Remaining,SAC Rate (2 minute avg),Ascent Rate,Safe Ascent Depth,CO2mbar
+0,4.3,0,1,0.23,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,468,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+10000,8.1,0,1,0.26,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,464,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+20000,7.4,0,1,0.26,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,460,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+30000,7.1,0,1,0.26,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,458,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+40000,6.1,0,1,0.25,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,450,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+50000,7.3,0,1,0.26,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,442,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+60000,5,0,1,0.25,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,438,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+70000,6.2,0,1,0.25,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,434,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+80000,5.4,0,1,0.24,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,426,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+90000,3.1,0,1,0.23,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,422,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+100000,1.2,0,0,0.22,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,408,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0
+110000,1.4,0,0,0.22,0.21,0,0,99,1,0,58,False,False,0,0,0,0,0,4.26,384,AI is off,N/A,N/A,N/A,GTR and SAC are off,0,0,0

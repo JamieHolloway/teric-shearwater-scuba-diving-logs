@@ -1,0 +1,21 @@
+Dive Number,GF Minimum,GF Maximum,Surface Interval (min),Imperial Units,Start Battery Voltage,Start CNS %,Start Date,Start External O2 Sensor Status,Start Low Set Point,Start High Set Point,Computer Firmware Version,Max Depth,Max Time,Error History,End Battery Voltage,End CNS,End Date,End External O2 Sensor Status,End Low Set Point,End High Set Point,Computer Serial Number,Computer Firmware Version,Computer Model,Log Version,Deco Model,VPM-B Conservatism,Start Surface Pressure,End Surface Pressure,Product
+7,40,85,65017,True,4.3,0,8/20/2021 2:29:00 PM,False,0,1,18,12.3,156,,4.3,0,8/20/2021 2:31:36 PM,False,0,0,600FB929,18,0,10,GF,40/85,1012,1012,Teric
+Time (ms),Depth,First Stop Depth,Time To Surface (min),Average PPO2,Fraction O2,Fraction He,First Stop Time,Current NDL,Current Circuit Mode,Current CCR Mode,Water Temp,Gas Switch Needed,External PPO2,Set Point Type,Circuit Switch Type,External O2 Sensor 1 (mV),External O2 Sensor 2 (mV),External O2 Sensor 3 (mV),Battery Voltage,Tank 1 pressure (PSI),Tank 2 pressure (PSI),Tank 3 pressure (PSI),Tank 4 pressure (PSI),Gas Time Remaining,SAC Rate (2 minute avg),Ascent Rate,Safe Ascent Depth,CO2mbar
+0,4.1,0,1,0.24,0.21,0,0,0,1,0,63,False,False,0,0,0,0,0,4.31,3070,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+10000,6.3,0,1,0.25,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,3054,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+20000,6,0,1,0.25,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.31,3044,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+30000,4,0,1,0.24,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.31,3032,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+40000,5.3,0,1,0.25,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.31,3022,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+50000,7.4,0,1,0.26,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,3010,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+60000,7.2,0,1,0.26,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,2998,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+70000,8.1,0,1,0.26,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,2984,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+80000,7.8,0,1,0.26,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,2970,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+90000,7.7,0,1,0.25,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.31,2952,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+100000,9.1,0,1,0.27,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,2936,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+110000,9.5,0,1,0.27,0.21,0,0,99,1,0,63,False,False,0,0,0,0,0,4.3,2920,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+120000,10.5,0,1,0.27,0.21,0,0,99,1,0,62,False,False,0,0,0,0,0,4.3,2914,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+130000,10.9,0,1,0.28,0.21,0,0,99,1,0,62,False,False,0,0,0,0,0,4.31,2902,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+140000,11.2,0,1,0.28,0.21,0,0,99,1,0,62,False,False,0,0,0,0,0,4.3,2888,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+150000,5.1,0,1,0.24,0.21,0,0,99,1,0,62,False,False,0,0,0,0,0,4.3,2874,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+160000,0,0,0,0.21,0.21,0,0,99,1,0,62,False,False,0,0,0,0,0,4.3,2860,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
+170000,0,0,0,0.21,0.21,0,0,99,1,0,62,False,False,0,0,0,0,0,4.3,2846,Not paired,UNAVAILABLE_SENSOR_DATA,UNAVAILABLE_SENSOR_DATA,N/A,GTR and SAC are off,0,0,0
